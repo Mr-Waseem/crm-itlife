@@ -13,7 +13,4 @@ jobs:
 
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
-      with:
-        server: ftp.itlifee.net
-        username: crm@crm.itlifee.net
-        password: hPl8kD8{V+oDHu6C
+
