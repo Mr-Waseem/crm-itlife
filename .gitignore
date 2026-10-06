@@ -1,0 +1,34 @@
+# Environment and local configuration
+/resources/.env
+/resources/.env.*
+!/resources/.env.example
+/resources/auth.json
+/resources/docker-compose.override.yml
+/resources/Homestead.json
+/resources/Homestead.yaml
+
+# Installed dependencies
+/resources/vendor/
+/resources/node_modules/
+
+# Generated frontend and public links
+/resources/public/build/
+/resources/public/hot
+/resources/public/storage
+
+# Runtime data and caches
+/resources/storage/
+/resources/bootstrap/cache/*.php
+/resources/.phpunit.result.cache
+/resources/npm-debug.log
+/resources/yarn-error.log
+
+# IDE and operating-system files
+/.idea/
+/.vscode/
+.DS_Store
+Thumbs.db
+
+# Server runtime logs
+/error_log
+

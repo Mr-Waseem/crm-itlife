@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon7a5b.eot?r2j1lu');
+  src:  url('fonts/icomoon7a5b.eot?r2j1lu#iefix') format('embedded-opentype'),
+    url('fonts/icomoon7a5b.ttf?r2j1lu') format('truetype'),
+    url('fonts/icomoon7a5b.woff?r2j1lu') format('woff'),
+    url('fonts/icomoon7a5b.svg?r2j1lu#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-down:before,
+.icomoon-left:before,
+.icomoon-right:before,
+.icomoon-up:before {
+  display: inline-block;
+  font-family: "icomoon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+.icomoon-down:before {
+  content: "\e900";
+}
+.icomoon-left:before {
+  content: "\e901";
+}
+.icomoon-right:before {
+  content: "\e902";
+}
+.icomoon-up:before {
+  content: "\e903";
+}

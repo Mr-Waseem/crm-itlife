@@ -1,0 +1,9 @@
+.box-subtitle {
+    color: black !important;
+    font-weight: bold !important;
+}
+
+.invalid-feedback1 {
+    color: red !important;
+    font-weight: bold !important;
+}
